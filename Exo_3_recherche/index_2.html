@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exo ajax php search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="search.js"></script>
+        
+    </head>
+    <body>
+        <section>
+            <div id="titre"><h1>Search</h1></div>
+            <form method="GET" id="form" name="search">
+                <div class="ui-widget">
+                    <input type="text" id="search" name="search" placeholder="recherche"/><br />
+                <input type="submit" id="send" name="send" value="search" /><br/>
+                <div id="reponse"></div>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

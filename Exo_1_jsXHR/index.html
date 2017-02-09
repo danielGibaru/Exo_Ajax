@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exo ajax php</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="getxhr.js"></script>
+        <script type="text/javascript" src="ajaxing.js"></script>
+        
+    </head>
+    <body>
+        <section>
+            <div id="titre">Votre date de naissance</div>
+                <input type="text" id="dNaissance" placeholder="JJ/MM/AAAA" onkeyDown="if(event.keyCode==13) ajaxing()" /><br />
+                <input type="button" id="send" value="Afficher mon jour de naissance" onclick="ajaxing()" /><br/>
+                <div id="reponse"></div>
+                
+            
+        </section>
+        <script type="text/javascript">
+           
+        </script>
+    </body>
+</html>
